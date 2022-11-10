@@ -1,1 +1,1 @@
-# Django-Practice
+# Django-Practice from Scratch
