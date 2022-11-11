@@ -21,3 +21,21 @@ print(myList[4])
 print("Using for loop")
 for x in myList:
     print(x)
+    
+    
+### 3 list
+Bangladesh = ['Mango', 'Banana', 'Kathal']
+India = ['Egg', 'Milk', 'Doi']
+Katar = ['Date-fruit', 'kaschi', 'Biriyani']
+
+print("Please enter a food item: ")
+x = input()
+
+if x in Bangladesh:
+    print(f'{x} comes from Bangladesh')
+elif x in India:
+    print(f'{x} comes from India')
+elif x in Katar:
+    print(f'{x} comes from Katar')    
+else:
+    print('I do not know')    
