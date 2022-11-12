@@ -11,3 +11,12 @@ print('%s is %d years old' %(name, age))
 myList = [1,2,3]
 
 print("A list: %s" % myList)
+
+
+
+
+aString = "Hello world!"
+
+print("single quotes are ' '")
+print(aString)
+print(len(aString))
