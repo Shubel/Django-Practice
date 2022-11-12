@@ -15,8 +15,17 @@ print("A list: %s" % myList)
 
 
 
+# That prints out 12, because "Hello world!" is 12 characters long, including punctuation and spaces.
 aString = "Hello world!"
 
 print("single quotes are ' '")
 print(aString)
 print(len(aString))
+
+
+
+
+# How to find index number
+aString = "Hello world!"
+
+print(aString.index("w"))
