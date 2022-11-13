@@ -29,12 +29,25 @@ print(len(aString))
 aString = "Hello world!"
 
 print(aString.index("w"))
+print(aString[6])
 
 
 
 
+
+###exercise
+aString = "Hello world"
 
 ### Word/Letter Count
-aString = "Hello world world world world"
-print(aString.count("world"))
-print(aString.count("Hello"))
+print(aString.count("l"))
+print(aString.count("o"))
+
+##word/letter slice
+print(aString[3:7])
+print(aString[1:5])
+print(aString[:4])
+print(aString[1:])
+
+
+
+
