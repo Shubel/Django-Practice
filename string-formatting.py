@@ -29,3 +29,12 @@ print(len(aString))
 aString = "Hello world!"
 
 print(aString.index("w"))
+
+
+
+
+
+### Word/Letter Count
+aString = "Hello world world world world"
+print(aString.count("world"))
+print(aString.count("Hello"))
