@@ -49,6 +49,9 @@ print(aString[:4])
 print(aString[1:])
 print(aString[-3:])
 print(aString[-5:])
+print(aString.split(" "))
+
+
 
 
 
