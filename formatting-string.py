@@ -5,3 +5,7 @@ print(num1 + num2)
 print("The result is", num1 + num2)
 print("The result is", num1 + num2)
 print("The result is " f"{num1} + {num2} = {num1+num2}")
+
+
+print("Hello Jon Doe.", end=" ")
+print("How are you?")
