@@ -6,4 +6,3 @@ while True:
     for i in range(0, 100):
         pyautogui.moveTo(0, i * 5)
         pyautogui.press('shift')
-

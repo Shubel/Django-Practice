@@ -16,3 +16,29 @@ for x in range(10):
     if x % 2 == 0:
         continue
     print(x)
+    
+    
+#### break
+i = 1
+while i <= 20:
+    if i == 10:
+        break
+    print(i)
+    i += 1
+    # if i == 10:
+    #     break
+
+print('Hello')
+
+
+#### continue
+i = 1
+while i <= 30:
+    # if i == 25:
+    #     continue
+    print(i)
+    i += 1
+    if i == 25:
+        continue
+
+print('Hello')
