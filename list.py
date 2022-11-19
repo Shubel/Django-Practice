@@ -8,6 +8,8 @@ myList.append('Sunny')
 myList.append(24)
 myList.append(11)
 
+print(myList)
+
 print(myList[0])
 print(myList[1])
 print(myList[2])
@@ -21,6 +23,8 @@ print(myList[4])
 print("Using for loop")
 for x in myList:
     print(x)
+    
+print('Hello')
     
     
 ### 3 list
@@ -75,3 +79,23 @@ second_name = names[1]
 print(numbers)
 print(strings)
 print('The second name on the names list is %s' % second_name) ###The second name on the names list is Eric
+
+
+###example
+subjects = ['Python', 'Java', 'PHP', 'C', 'C++']
+
+print(subjects)
+print(subjects[0])
+print(subjects[4])
+print(subjects[2:])
+print(subjects[-1:])
+print(subjects[1:4])
+
+print(subjects + ['Javascript'])
+print(subjects + ['C#'])
+print(subjects + ['Javascript', 'C#'])
+
+# 'in' and 'not in' operator
+print('Python' in subjects)
+print('Python' not in subjects)
+print('C#' not in subjects)
