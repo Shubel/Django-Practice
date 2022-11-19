@@ -91,6 +91,36 @@ print(subjects[2:])
 print(subjects[-1:])
 print(subjects[1:4])
 
+subjects.append('Django')
+print(subjects)
+subjects.append(1)
+print(subjects)
+
+subjects.insert(2,'Laravel')
+print(subjects)
+
+subjects.remove(1)
+print(subjects)
+
+subjects.sort()
+print(subjects)
+
+subjects.reverse()
+print(subjects)
+
+subjects.pop()
+print(subjects)
+
+subject2 = subjects.copy()
+print(subject2)
+print('Hello')
+
+position = subjects.index('PHP')
+print(position)
+
+position = subjects.count('PHP')
+print(position)
+
 print(subjects + ['Javascript'])
 print(subjects + ['C#'])
 print(subjects + ['Javascript', 'C#'])
@@ -99,3 +129,6 @@ print(subjects + ['Javascript', 'C#'])
 print('Python' in subjects)
 print('Python' not in subjects)
 print('C#' not in subjects)
+
+subjects.clear()
+print(subjects)
