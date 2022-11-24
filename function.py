@@ -29,3 +29,12 @@ def addition(x, y, z):
     print(sum)
     
 addition(10, 30, 40)
+
+
+### using function with return between two number addition
+def add(a, b):
+    sum = a + b
+    return sum
+
+results = add(2, 3)
+print(results)
