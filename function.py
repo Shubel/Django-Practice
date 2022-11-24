@@ -13,3 +13,13 @@ def name_the_benefits_of_functions():
         print(build_sentence(benefit))
 
 name_the_benefits_of_functions()
+
+
+### using function for two number addition
+def add(x, y):
+    sum = x + y
+    print(sum)
+    
+add(10, 20)
+
+
