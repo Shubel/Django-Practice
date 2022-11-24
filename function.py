@@ -15,7 +15,7 @@ def name_the_benefits_of_functions():
 name_the_benefits_of_functions()
 
 
-### using function for two number addition
+### using function between two number addition
 def add(x, y):
     sum = x + y
     print(sum)
@@ -23,3 +23,9 @@ def add(x, y):
 add(10, 20)
 
 
+### using function between three number addition
+def addition(x, y, z):
+    sum = x + y + z
+    print(sum)
+    
+addition(10, 30, 40)
